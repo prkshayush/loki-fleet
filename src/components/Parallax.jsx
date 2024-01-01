@@ -25,14 +25,14 @@ function Parallax() {
 
             <motion.div className='block absolute inset-0 z-[1] md:h-[120vh] h-[65vh] '
                 style={{
-                    backgroundImage: `url(./assets/tree-yggdrassil.png)`,
+                    backgroundImage: `url(/assets/tree-yggdrassil.png)`,
                     backgroundPosition: "bottom",
                     backgroundSize: "cover",
                     y: backgroundY
                 }} >
             </motion.div>
             <div className="block absolute inset-0 z-0 md:h-[120vh] h-[70vh]" style={{
-                backgroundImage: `url(./assets/sacred-timeline.png)`,
+                backgroundImage: `url(/assets/sacred-timeline.png)`,
                 backgroundPosition: "bottom",
                 backgroundSize: "cover",
                 opacity: "0.7"
@@ -48,7 +48,7 @@ function Parallax() {
 
             <motion.div className='absolute inset-0 md:h-[120vh] h-[65vh] z-10'
                 style={{
-                    backgroundImage: `url(./assets/spidert-tree.jpg)`,
+                    backgroundImage: `url(/assets/spidert-tree.jpg)`,
                     backgroundPosition: "bottom",
                     backgroundSize: "cover",
                     y: spiderY,
@@ -58,7 +58,7 @@ function Parallax() {
 
             <motion.div className='absolute md:inset-x-0 md:inset-y-5 inset-0 md:h-[120vh] h-[75vh] z-20'
                 style={{
-                    backgroundImage: `url(./assets/intro-loki-bg.png)`,
+                    backgroundImage: `url(/assets/intro-loki-bg.png)`,
                     backgroundPosition: "bottom",
                     backgroundSize: "cover",
                     y: lokiY,
@@ -70,14 +70,14 @@ function Parallax() {
             style={{
                 y: bottomY
             }}>
-                <img src="./assets/bottom.png" alt="error" />
+                <img src="/assets/bottom.png" alt="error" />
             </motion.div>
             <motion.div className='absolute z-[29] mt-[500px] md:mt-[600px]' 
             style={{
                 y: bottomY,
                 opacity: "75%"
             }}>
-                <img src="./assets/bottom-layer.png" alt="error" />
+                <img src="/assets/bottom-layer.png" alt="error" />
             </motion.div>
 
         </div>
