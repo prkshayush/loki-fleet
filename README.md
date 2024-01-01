@@ -1,8 +1,11 @@
-# React + Vite
+# Loki's Fleet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ever wondered.. What If...LOKI from MCU owned a vehicle rental?
+There are certain easter eggs from some of the characters involved in Loki series.
 
-Currently, two official plugins are available:
+Tech Stack used in this project are:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React (Vite)](https://vitejs.dev/guide/) as React template
+- [Framer Motion](https://www.framer.com/motion/) for animating parallax, card stack and other
+- [TailwindCSS](https://tailwindcss.com/docs/guides/vite) as CSS framework
+- [Lenis-Scroll](https://github.com/studio-freight/lenis) for smooth scrolling
