@@ -1,8 +1,7 @@
-// import { useRef, useState } from 'react'
 import './App.css'
 import Card from './components/Card'
 import Footer from './components/Footer'
-// import { motion, useScroll, useTransform } from 'framer-motion'
+import Menu from './components/Menu'
 import Navbar from './components/Navbar'
 import Parallax from './components/Parallax'
 import TextBlock from './components/TextBlock'
@@ -13,6 +12,7 @@ function App() {
       <section className='bg-background' id='hero'>
         {/* Navbar Section */}
         <Navbar />
+        <Menu />
 
         {/* parallax section */}
         <Parallax />
