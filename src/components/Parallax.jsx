@@ -32,7 +32,7 @@ function Parallax() {
                 }} >
             </motion.div>
             <div className="block absolute inset-0 z-0 md:h-[120vh] h-[70vh]" style={{
-                backgroundImage: `url(./src/assets/sacred-timeline.webp)`,
+                backgroundImage: `url(./src/assets/sacred-timeline.png)`,
                 backgroundPosition: "bottom",
                 backgroundSize: "cover",
                 opacity: "0.7"
@@ -52,7 +52,7 @@ function Parallax() {
                     backgroundPosition: "bottom",
                     backgroundSize: "cover",
                     y: spiderY,
-                    opacity: "28%",
+                    opacity: "0.4",
                 }} ></motion.div>
 
 
