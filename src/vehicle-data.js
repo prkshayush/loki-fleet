@@ -15,12 +15,12 @@ export const vehicles = [
         title: "Wakandan Jet",
         description: "An absolutely beautiful piece of engineering, used by the people of Wakanda is a joy to ride with. Made with vibranium & power by self renewable source of energy, this is the best choice.",
         avaiability: "Available",
-        image: "/assets/panther-jet.png"
+        image: "public/panther-jet.png"
     },
     {
         title: "Jetski",
         description: "Mobius loves Jetskis. Choose this if you love jetskis too. It can not only ride on water surface but can be used as a submarine under water.",
         avaiability: "Not Available",
-        image: "/assets/jetski.png"
+        image: "/jetski.png"
     },
 ]
