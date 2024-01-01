@@ -21,6 +21,6 @@ export const vehicles = [
         title: "Jetski",
         description: "Mobius loves Jetskis. Choose this if you love jetskis too. It can not only ride on water surface but can be used as a submarine under water.",
         avaiability: "Not Available",
-        image: "./assets/jetski.png"
+        image: "/assets/jetski.png"
     },
 ]
